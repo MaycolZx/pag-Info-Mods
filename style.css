@@ -1,0 +1,45 @@
+.navBar{
+    background-color: #0d0d0d;
+    color: white;
+    /* color: purple; */
+}
+
+body{
+    background-color: #0d0d0d;
+}
+
+#container{    
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.miNuevaClase{
+    background-color: #1a1a1a;
+    color: #b2b2b2;
+    /* align-items: center; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.miNuevaClase h1{
+    grid-column: 2/6;
+    grid-row: 1/1;
+}
+
+.miNuevaClase p{
+    grid-column:  2/ 6;
+    grid-row: 2/4;
+}
+    
+.miNuevaClase img{
+    grid-column: 1/2;
+    grid-row: 1/4;
+    width: 15rem;
+    height: 15rem;    
+}
+
+.miNuevaClase button{
+    grid-column: 2/6;
+    grid-row: 4/4;
+}
